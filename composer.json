@@ -1,5 +1,5 @@
 {
-    "name": "wunderio/drupal-project",
+    "name": "karieen/drupal-sandbox",
     "description": "Wunder's template for Drupal 9 projects.",
     "type": "project",
     "license": "GPL-2.0-or-later",
@@ -40,6 +40,7 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "config": {
+        "process-timeout": 2000,
         "sort-packages": true,
         "discard-changes": true,
         "allow-plugins": {

@@ -1,0 +1,18 @@
+uuid: dad1d2e7-49e5-4ecb-94ed-ad6317f58a43
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - filter
+    - system
+_core:
+  default_config_hash: ppQmCPK1Zk1uoDnmsChTQrk5nhaGsXwAxE804CS1o8U
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'

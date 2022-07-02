@@ -1,0 +1,26 @@
+uuid: db8cdd90-a94d-4ecb-aec9-ff89e8223b18
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: r_QK30ocy5BpQR4j2V_J1_ijJsJT5kVScGAyeemOi1g
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: -10
+    region: content
+  contact:
+    weight: 5
+    region: content
+  language:
+    weight: 0
+    region: content
+  timezone:
+    weight: 6
+    region: content
+hidden: {  }
