@@ -1,0 +1,19 @@
+uuid: aacacb18-1bc2-4041-ab84-d0ece68837fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_subtitle
+    - node.type.blog
+id: node.blog.field_subtitle
+field_name: field_subtitle
+entity_type: node
+bundle: blog
+label: Metadata
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
