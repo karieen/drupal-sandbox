@@ -22,6 +22,7 @@
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
         "drupal/monolog": "^2.0",
+        "drupal/pathauto": "^1.10",
         "drupal/simplei": "^1.2",
         "drupal/warden": "^3.0@RC",
         "drush/drush": "^11.0",
