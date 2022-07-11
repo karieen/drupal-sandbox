@@ -1,0 +1,21 @@
+uuid: ada12483-8214-42c5-8d5b-34218b25abbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - node
+    - system
+    - toolbar
+id: editor
+label: Editor
+weight: 3
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'create blog content'
+  - 'delete own blog content'
+  - 'edit any blog content'
+  - 'view the administration theme'

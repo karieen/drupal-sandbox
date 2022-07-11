@@ -2,7 +2,11 @@ uuid: db8cdd90-a94d-4ecb-aec9-ff89e8223b18
 langcode: en
 status: true
 dependencies:
+  config:
+    - field.field.user.user.field_logo
+    - image.style.thumbnail
   module:
+    - image
     - user
 _core:
   default_config_hash: r_QK30ocy5BpQR4j2V_J1_ijJsJT5kVScGAyeemOi1g
@@ -12,15 +16,30 @@ bundle: user
 mode: default
 content:
   account:
-    weight: -10
+    weight: 0
     region: content
+    settings: {  }
+    third_party_settings: {  }
   contact:
     weight: 5
     region: content
+  field_logo:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
   language:
-    weight: 0
+    weight: 1
     region: content
+    settings: {  }
+    third_party_settings: {  }
   timezone:
-    weight: 6
+    weight: 2
     region: content
-hidden: {  }
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  path: true
