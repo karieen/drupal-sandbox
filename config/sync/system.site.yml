@@ -2,13 +2,13 @@ _core:
   default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
 langcode: en
 uuid: 4b528f62-e0e3-43e8-8013-be9990a9cddd
-name: drupal-sandbox
+name: drupal-sandbox-SANDBOX
 mail: karina.jakovina@gmail.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /node
+  front: /node/4
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
